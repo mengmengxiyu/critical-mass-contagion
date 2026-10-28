@@ -13,7 +13,7 @@ simulation of the microscopic rules; the mean-field closure is never used inside
 ```
 code/      simulation, analysis and plotting scripts (comments are partly in Chinese)
 data/      CSV files produced by the simulation scripts and read by the plotting scripts
-figures/   the six figures of the paper (PDF as used in the manuscript, PNG for preview)
+figures/   the six figures of the paper (PDF as used in the manuscript)
 ```
 
 ## Requirements
@@ -32,8 +32,7 @@ cd data
 PYTHONPATH=../code python ../code/<script>.py [mode]
 ```
 
-The plotting scripts write `<figure>.pdf` and `<figure>.png` into the current directory;
-copy them to `figures/`. Random seeds are fixed in every script, so the results are reproducible.
+The plotting scripts write `<figure>.pdf` (and a PNG preview) into the current directory; copy the PDF to `figures/`. Random seeds are fixed in every script, so the results are reproducible.
 
 ## Figures and tables
 
